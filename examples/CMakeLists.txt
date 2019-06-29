@@ -32,6 +32,7 @@ set_if(UNIX LIBM m)
 
 register_exe(simple-net-c simple_net.c "test")
 register_exe(simple-net-cpp simple_net.cpp "test")
+register_exe(chk-mem-leak chk_mem_leak.cpp "test")
 register_exe(simple-training-net-c simple_training_net.c "test" ${LIBM})
 register_exe(simple-training-net-cpp simple_training_net.cpp "test" ${LIBM})
 register_exe(simple-net-int8-cpp simple_net_int8.cpp "test")
